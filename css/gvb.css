@@ -122,6 +122,18 @@
     font-size: 20px;
     font-weight: 700;
   }
-  .order h2{
-    text-align: center;
+  .about{
+      height:400px;
+      background-color: aqua;
+      margin-top: 20px;
+      padding-bottom: 10px;
+      margin-left: 10%;
+      margin-right:10%;
+      border-radius:2 px solid black;
+  }
+  .footer{
+      background-color:rgba(12, 77, 218, 0.1)
+      height:400px;
+      width: 100%;
+      margin-top:20px;
   }
