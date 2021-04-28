@@ -38,8 +38,6 @@
 .security,{
     margin-top: 20px;
     background-color: yellowgreen;
-    /* margin-left: 30%;
-    margin-right: 30%; */
     height: 200px;
 }
 .donation{
@@ -154,3 +152,16 @@
     text-align: center;
     background-color:wheat;
 }
+.carousel{
+    height: 400px;
+    margin-top: 20px;
+    background-color: #f7f6f0;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#project > h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
