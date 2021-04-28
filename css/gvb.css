@@ -146,5 +146,11 @@
   .card{
       margin-left: 60px;
       justify-content: space-evenly;
-     
   }
+.srv{
+    margin-right: 20%;
+    margin-left: 20%;
+    align-items: center;
+    text-align: center;
+    background-color:wheat;
+}
