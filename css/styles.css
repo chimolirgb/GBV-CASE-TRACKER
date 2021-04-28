@@ -1,0 +1,47 @@
+#bg{
+ 
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font: 200;
+
+}
+
+#cardstyle1{
+    background-image: url(../images/ee.jpg);
+    background-size: cover;
+    font: xx-large;
+    font-size: x-large;
+    color: black;
+}
+
+#cardstyle2{
+    background-image: url(../images/back2.jpg);
+    color: white;
+    font: xx-large;
+    font-size: x-large;
+}
+
+.imgstyle{
+  width: 400px;  
+  height: 300px;
+ 
+}
+
+#saf{
+    display: none;
+}
+
+#volunt{
+    display: none;
+}
+
+.legal{
+    display: none;
+}
+
+.train{
+    display: none;
+}
