@@ -11,5 +11,7 @@ $(document).ready(function(event){
     $("#vila").hover( function(){
         $("#vila").hide();
     });
+    $("#project").css("color", "green");
+
 
 });
