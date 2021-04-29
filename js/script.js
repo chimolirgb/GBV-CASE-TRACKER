@@ -49,7 +49,7 @@ function fname(){
 
 function Contact(firstName, lastName, phone,email, location){
     this.firstName = firstName;
-    this.lastName = surName;
+    this.lastName = lastName;
     this.phone = phone;
     this.email = email
     this.location = [];
@@ -89,12 +89,32 @@ function Contact(firstName, lastName, phone,email, location){
       $(".view-more").last().click(function(){
         $("#moreDetails").slideToggle(1000);
         $(".fname").text(newContact.firstName);
-        $(".sname").text(newContact.surName);
+        $(".sname").text(newContact.lastName);
         $(".tele").text(newContact.phone);
   
         $(".country").text(newContact.location[0].country);
         $(".twn").text(newContact.location[0].town);
       })
     })
-  });
+
+    $( "#li" ).click(function() {
+      $("#health").show()
+    });
   
+
+  });
+
+
+  function safePlace(){
+    location.href = ("index.html");
+  };
+  function Donations(){
+    location.href = ("index.html");
+  };
+
+  function legalHelp(){
+    location.href = ("index.html");
+  };
+  function volunteers(){
+    location.href = ("index.html");
+  };
