@@ -1,0 +1,43 @@
+ .imgtext {
+     position: absolute;
+	width: 50%;
+	height: 50%;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 5px solid white;
+	text-align: justify;
+	padding: 5px;
+	display: none;  
+	color: #000;
+	font-size: small;
+	font-weight: 200;
+	font-style: italic;
+}   
+
+.hover {
+	position: relative;
+	/* overflow: hidden; */
+} 
+
+  .images{
+    align-items: center;
+	
+	
+} 
+
+.imgstyle{
+	width: 500px;
+	height: 400px;
+}
+
+/* #a{
+	display: none;
+}
+#b{
+	display: none;
+}
+#c{
+	display: none;
+} */
