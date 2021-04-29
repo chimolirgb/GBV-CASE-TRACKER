@@ -6,7 +6,7 @@
     width:100%;
     height:98%;
     background-repeat: no-repeat;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/back2.jpg);
     background-size: cover;
 }
 .container{
@@ -47,7 +47,7 @@
 }
 .partners{
     margin-top: 20px;
-    border-radius: 1px solid green;
+    border-radius: 1px solid rgb(100, 3, 16);
     margin: 2px;
     height: 200px;
 }
@@ -57,7 +57,7 @@
     width: 98%;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: wheat;
+    /* background-color: wheat; */
 }
 #overlay{
     background-color: rgba(0, 0, 0, 0.1);
@@ -89,7 +89,7 @@
     }
   }
   .landing{
-    background-image: url("../images/f2.jpg");
+    background-image: url(../images/genderss.jpeg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -122,19 +122,25 @@
   }
   .about{
       height:400px;
-      background-color: aqua;
+      /* background-color: aqua; */
       margin-top: 20px;
       padding-bottom: 10px;
       margin-left: 10%;
       margin-right:10%;
+      /* background-image: url(../images/plain\ a.jpg); */
       border-radius:2 px solid black;
+      background-size: cover;
+      background-repeat: no-repeat;
   }
   .villa{
-      background-color:rgb(238, 230, 230);
+      /* background-color:rgb(238, 230, 230); */
       height: auto;
       width: 100%;
       margin-top: 20px;
       margin-bottom: auto;
+      font-size: xx-large;
+      font-style: italic;
+      font-weight: bolder;
   }
   .villaR {
       align-items: center;
@@ -144,6 +150,8 @@
   .card{
       margin-left: 60px;
       justify-content: space-evenly;
+      width: 450px;
+      height: 350px;
   }
 .srv{
     margin-right: 20%;
@@ -164,4 +172,8 @@
     text-align: center;
     margin-top: 20px;
 }
+
+/* .services srv{
+  background-image: url(../images/plain\ a.jpg);
+} */
 
