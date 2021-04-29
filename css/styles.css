@@ -1,0 +1,75 @@
+#bg{
+ background-image: url(../images/back1.jpg);
+ /* background-repeat: no-repeat;
+ background-size: cover; */
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font: 200;
+
+}
+
+#cardstyle1{
+    background-image: url(../images/plain4.svg);
+    background-size: cover;
+    font: xx-large;
+    font-size: x-large;
+    color: black;
+    width: 500px;
+}
+
+#cardstyle2{
+    background-image: url(../images/plain4.svg);
+    color: white;
+    font: xx-large;
+    font-size: x-large;
+    width: 500px;
+}
+
+.imgstyle{
+  width: 400px;  
+  height: 300px;
+  flex-direction: rowa;
+ 
+}
+
+#saf{
+    display: none;
+}
+
+#volunt{
+    display: none;
+}
+
+.legal{
+    display: none;
+    width: 500px;
+}
+
+.train{
+    display: none;
+}
+#fom{
+    background-image: url(../images/plain4.svg);
+    color: black;
+    font-size: x-large;
+}
+
+.card1 {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-left: 10%;      
+    margin-right: 10%;
+    width: auto
+}
+.card{ 
+    margin: 0 auto;
+    float: none;
+    margin-left: 20%;
+} 
+#health{
+    display: none;
+}
