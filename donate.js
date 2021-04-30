@@ -59,9 +59,9 @@ function Contact(firstName, lastName, phone,email, location){
       })
     })
 
-    $( "#li" ).click(function() {
-      $("#health").show()
-    });
+    // $( "#li" ).click(function() {
+    //   $("#health").show()
+    // });
   
 
   });

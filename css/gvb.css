@@ -152,12 +152,12 @@
     margin-left: 20%;
     align-items: center;
     text-align: center;
-    background-color:wheat;
+    /* background-color:wheat; */
 }
 .carousel{
     height: 400px;
     margin-top: 20px;
-    background-color: #f7f6f0;
+    /* background-color: #f7f6f0; */
     position: relative;
     margin-left: 20%;
     margin-right: 20%;
@@ -176,15 +176,5 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
-/* .services srv{
-  background-image: url(../images/plain\ a.jpg);
-} */
-#contacts1{
-    margin-left: 20%;
-    margin-right: 20%;
-}
-=======
 
 
->>>>>>> 8521d76984ae2598dd857883a527f308c8db34b3

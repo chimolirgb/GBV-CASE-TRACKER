@@ -9,11 +9,12 @@
 	border: 5px solid white;
 	text-align: justify;
 	padding: 5px;
-	display: none;  
+	display:none;  
 	color: #000;
-	font-size: small;
+	font-size: 20px;
 	font-weight: 200;
 	font-style: italic;
+	overflow:hidden
 }   
 
 .hover {
@@ -32,20 +33,28 @@
 	height: 400px;
 }
 
-
-#a{
-	font: xx-large;
+/* #a{
+	display: none;
 }
 #b{
-font:  xx-large;
-	color: #000;
+	display: none;
 }
 #c{
-font: xx-large;
-	color: #000;
-}
- 
+	display: none;
+} */
+
 .event{
 	text-align: center;
-	color: white;
-} 
+	color: #000;
+}
+.form1{
+	margin-right: 20%;
+	margin-left:20%;
+	align-items: center;
+	
+}
+.l{
+	margin-right: 60%;
+
+	
+}
