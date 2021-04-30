@@ -2,16 +2,16 @@
 
 
 
-$(document).ready(function(event){
-    event.preventDefault;
-    $(".navbar").click(function{
+$(document).ready(function(e){
+    e.preventDefault;
+    $(".navbar").click(function(){
         $(".navbar").hide();
         $(".navbar").show();
     });
     $("#vila").hover( function(){
         $("#vila").hide();
     });
-    $("#project").css("color", "green");
+    $("#project> li:first").css("color", "green");
 
 
 });

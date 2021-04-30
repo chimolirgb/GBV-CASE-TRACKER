@@ -185,4 +185,7 @@
 /* .services srv{
   background-image: url(../images/plain\ a.jpg);
 } */
-
+#contacts1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
