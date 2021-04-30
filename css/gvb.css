@@ -1,0 +1,180 @@
+.body{
+    padding: 0px;
+    margin: 0%;
+    margin: auto;
+    background-color:white;
+    width:80%;
+    height:90%;
+    background-repeat: no-repeat;
+    background-image: url(../images/back2.jpg);
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+#services{
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.sf{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+#vila{
+    margin-top: 80px;
+    color: rgb(243, 236, 233);
+    font-weight: 700;
+}
+.d-flex{
+    display: flex !important;
+  }
+.security{
+    margin-top: 20px;
+    background-color: yellowgreen;
+    height: 200px;
+}
+.donation{
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.partners{
+    margin-top: 20px;
+    border-radius: 1px solid rgb(100, 3, 16);
+    margin: 2px;
+    height: 200px;
+}
+.footer{
+    margin-top: 25px;
+    height: 200px;
+    width: 98%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%; 
+  }
+  .image
+{
+  position: relative;
+  left: 50%;
+  top: 90%;
+  margin-left:-20px;
+  
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-50px);
+    }
+    60% {
+      transform: translateY(-30px);
+    }
+  }
+  .landing{
+    background-image: url(../images/genderss.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 10px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .text a{
+    font-size: 20px;
+    font-weight: 700;
+    font-size:40px;
+  }
+  .text h5{
+    font-size: 25px;
+    padding: 30px;
+    color:rgb(238, 235, 217); 
+  
+  }
+  nav .navbar{
+    width: 9
+  }
+  .navbar-brand{
+    margin-right: 40%;
+    font-weight:700;
+  }
+  .nav-item a{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .about{
+      height:400px;
+      margin-top: 20px;
+      padding-bottom: 10px;
+      margin-left: 10%;
+      margin-right:10%;
+      border-radius:2 px solid black;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .villa{
+      height: auto;
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: auto;
+      font-size: xx-large;
+      font-style: italic;
+      font-weight: bolder;
+  }
+  .villaR {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
+  .card{
+      margin-left: 60px;
+      justify-content: space-evenly;
+      width: 450px;
+      height: 350px;
+  }
+.srv{
+    margin-right: 20%;
+    margin-left: 20%;
+    align-items: center;
+    text-align: center;
+    background-color:wheat;
+}
+.carousel{
+    height: 400px;
+    margin-top: 20px;
+    background-color: #f7f6f0;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#project > h2{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.our-service{
+    background-color: whitesmoke;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#ha{
+    text-align: center;
+}
+
+
+

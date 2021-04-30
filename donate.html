@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./css/gvb.css">
+
+    <title>VILLA RESCUE CENTER</title>
+</head>
+
+<body>
+    <div class="view landing">
+        <div id="overlay">
+            <nav class="navbar navbar-expand-sm bg-success navbar-dark fixed-top">
+                <a class="navbar-brand" href="home.html"></a>
+                <button class="navbar-toggler bg-success" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT-US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donate.html">DONATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="event.html">EVENTS</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="mask rgba-black-light align-items-center">
+                <div class="container" id="head">
+                    <div class="row">
+                        <div class="col-md-12 mb-4 white-text text-center text" id="vila">
+                            <h1 class="h1-reponsive gold-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse">
+                                <strong>VILLA RESCUE CENTER</strong></h1>
+                            <h5 class="text-uppercase mb-4 text-uppercase floater"><strong>STOP GENDER BASED
+                                    VIOLENCE</strong></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image bounce"> <a href="home.html"> <img src="./images/mouse_click.png" alt=" arrow"
+                        width="40px"></a>
+            </div>
+            <div class="services srv">
+                <h3>Donations</h3>
+                <h2>Financial Donations</h2>
+                <br>
+                <div id="fom">
+                  <label>Choose your preferred amount(s)</label>
+                  <select class="custom-select custom-select-md mb-3" id="donate" needed>
+                    <option value="">---</option>
+                    <option value="KSH 5000">Ksh 5000-10,000</option>
+                    <option value="KSH10,000">Ksh. 11,000-20,000</option>
+                    <option value="21000">Ksh. 21000-30,000</option>
+                    <option value="above">Above Ksh.30,000</option>
+                    <option value="others">Other amount</option>
+                  </select>
+                  <br>
+                  </select>
+                  <h2>YOUR INFO</h2>
+                  <p>
+                    Please enter your contact information below. This is different than your billing information, which you
+                    will be
+                    asked to provide during payment.
+                    We do not retain any of your credit card information.
+                  </p>
+                  <div class="row">
+                    <div class="col-md-12 addre">
+                      <form id="contact">
+                        <label for="firstName">First Name</label>
+                        <input class="form-control" type="text" name="firstName" id="firstName">
+                        <label for="lastName">Last Name</label>
+                        <input class="form-control" type="text" name="lastName" id="lastName">
+                        <label for="phone">Phone</label>
+                        <input class="form-control" type="text" name="phone" id="phone">
+                        <label for="Country">Country</label>
+                        <select id="country" name="country">
+                          <option value="">---</option>
+                          <option value="kenya">Kenya</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                          <option value="australia">Australia</option>
+                          <option value="sudan">Sudan</option>
+                          <option value="uganda">Uganda</option>
+                          <option value="southAfrica">South Africa</option>
+                          <option value="ghana">Ghana</option>
+                          <option value="egypt">Egypt</option>
+                          <option value="uk">UK</option>
+                          <option value="schotland">Schotland</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="town">Town</label>
+                        <input class="form-control" type="text" name="town" id="town">
+                        <br>
+                        <label for="Email">Email</label>
+                        <input class="form-control" type="text" name="Email" id="email">
+                        <br>
+                        <br>
+                        <br>
+                        <input type="submit" value="DONATE">
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6 discon">
+                    <div id="diplay-contacts">
+                      <ul id="detail">
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <h2>others</h2>
+                <select class="custom-select custom-select-md mb-3" id="donate" needed>
+                  <option value="">---</option>
+                  <option value="other donations">Clothes</option>
+                  <option value="other donations">medicine</option>
+                  <option value="other donations">Food</option>
+                </select>
+            <div id="project" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <h2>VIEW OUR PROGRAMS FOR SUPPORT</h2>
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#project" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#project" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#project" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/about1.png" class="d-block " alt="..." id="img" >
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>PROJECT-0NE</h5>
+                      <p>Eduction</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/about2.jpeg" class="d-block " alt="..." id="img">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>PROJECT-TWO</h5>
+                      <p>TAILORING</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/bg.jpg" class="d-block " alt="..." id="img">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>PROJECT THREE</h5>
+                      <p>ART-WORK</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#project" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#project" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="./donate.js"></script>
+    <script src="./js/gvb.js"></script>
+</body>
+
+</html>￼
