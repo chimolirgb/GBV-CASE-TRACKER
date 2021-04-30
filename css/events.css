@@ -2,7 +2,7 @@
      position: absolute;
 	width: 50%;
 	height: 50%;
-	color: white;
+	/* color: white; */
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -32,7 +32,7 @@
 	height: 400px;
 }
 
-/* #a{
+#a{
 	display: none;
 }
 #b{
@@ -40,4 +40,9 @@
 }
 #c{
 	display: none;
-} */
+}
+
+.event{
+	text-align: center;
+	color: #000;
+}
